@@ -75,6 +75,12 @@ namespace Bytebank
             sistemaInterno.Logar(camila, "123");
             sistemaInterno.Logar(camila, "abc");
 
+            Separador();
+
+            ParceiroComercial Ze = new ParceiroComercial() { Senha ="123456"};
+            sistemaInterno.Logar(Ze, "123456");
+            sistemaInterno.Logar(Ze, "1234567");
+
         }
     }
 }
